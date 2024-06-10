@@ -1,5 +1,5 @@
 def call() {
     sh 'npm install'
     sh 'npm audit fix --force'
-    npm install yargs-parser@latest
+    sh 'npm install yargs-parser@latest'
 }
